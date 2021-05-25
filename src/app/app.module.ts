@@ -7,6 +7,7 @@ import { ProfileComponent } from './profile/profile.component';
 import { ReposComponent } from './repos/repos.component';
 import { SearchFormComponent } from './search-form/search-form.component';
 import { UserComponent } from './user/user.component';
+import { DateCountPipe } from './date-count.pipe';
 
 @NgModule({
   declarations: [
@@ -14,7 +15,8 @@ import { UserComponent } from './user/user.component';
     ProfileComponent,
     ReposComponent,
     SearchFormComponent,
-    UserComponent
+    UserComponent,
+    DateCountPipe
   ],
   imports: [
     BrowserModule,
